@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+    <title>Mobile</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <style>
+        body {font-family: "Times New Roman", Georgia, Serif;}
+        h1, h2, h3, h4, h5, h6 {
+          font-family: "Playfair Display";
+          letter-spacing: 5px;
+        }
+    </style>
+      <body>
+
+      <!-- Navbar (sit on top) -->
+      <div class="w3-top">
+        <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
+          <a href="#" class="w3-bar-item w3-button">Quản Lý Sinh Viên</a>
+          <!-- Right-sided navbar links. Hide them on small screens -->
+
+          <div class="w3-right w3-hide-small">
+            <a class="w3-bar-item w3-button" href="mobile.html">Mobile</a>
+            <a class="w3-bar-item w3-button" href="reactnative.html">Reatnative</a>
+            <a class="w3-bar-item w3-button" href=""></a>
+            <a class="w3-bar-item w3-button" href=""></a>
+            
+
+
+
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Page content -->
+      <div class="w3-content" style="max-width:1100px">
+
+        <!-- About Section -->
+        <div class="w3-row w3-padding-64" id="about">
+          <div class="w3-col m6 w3-padding-large w3-hide-small">
+          <img src="/images/ListSV.png" class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="200" height="300">
+          </div>
+
+          <div class="w3-col m6 w3-padding-large">
+            <h1 class="w3-center">List Student</h1><br>
+            <p class="w3-large">Chạy ứng dụng lên sẽ hiện ra danh sách sinh viên. trong activity này có thể insert, delete, sửa bằng các cách bên dưới: <span class="w3-tag w3-light-grey"></span> </p>
+            <p class="w3-large w3-text-grey w3-hide-medium">Cách Insert 1: Thêm bằng button ở phía dưới.</p>
+            <p class="w3-large w3-text-grey w3-hide-medium">Cách Insert 2: Thêm bằng cách click chuột vào dấu 3 chấm ở phía trên sẽ hiện ra insert để insert sinh viên vào danh sách.</p>
+            <p class="w3-large w3-text-grey w3-hide-medium">Cách Delete: Click vào dấu X bên phải của mỗi item trên List.</p>
+            <p class="w3-large w3-text-grey w3-hide-medium">Cách Details: Click vào sinh viên muốn sửa thì sẽ chuyển sang activity details student.</p>
+
+          </div>
+        </div>
+        
+        <hr>
+        
+        <!-- Menu Section -->
+        
+        <div class="w3-content" style="max-width:1100px">
+
+          <!-- About Section -->
+          <div class="w3-row w3-padding-64" id="about">
+            <div class="w3-col m6 w3-padding-large w3-hide-small">
+            <img src="/images/insertSV.png" class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="200" height="300">
+            <img src="/images/themthanhcong.png" class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="200" height="300">
+            </div>
+        
+            <div class="w3-col m6 w3-padding-large">
+              <h1 class="w3-center">Insert Student</h1><br>
+              <p class="w3-large">Sau khi click để thêm sinh viên bằng 2 cách trên thì sẽ chuyển qua 1 activity khác như ảnh,điền đủ thông tin xong thì bên sẽ có 3 button để mình lựa chọn:  <span class="w3-tag w3-light-grey"></span> </p>
+              <p class="w3-large w3-text-grey w3-hide-medium">Button Save: Sẽ lưu lại và quay về lại list Student sẽ toast ra là đã lưu lại thành công.</p>
+              <p class="w3-large w3-text-grey w3-hide-medium">Button Cancel: Để hủy và quay về List student khi mình chưa muốn insert sinh viên.</p>
+              <p class="w3-large w3-text-grey w3-hide-medium">Button List Student: Để xem lại List student.</p>
+              
+        
+            </div>
+          </div>
+        
+
+        <hr>
+
+        <!-- Contact Section -->
+        <div class="w3-content" style="max-width:1100px">
+
+          <!-- About Section -->
+          <div class="w3-row w3-padding-64" id="about">
+            <div class="w3-col m6 w3-padding-large w3-hide-small">
+            <img src="/images/deleteSV.png" class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="200" height="300">
+            <img src="/images/deletethanhcong.png" class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="200" height="300">
+
+            </div>
+        
+            <div class="w3-col m6 w3-padding-large">
+              <h1 class="w3-center">Delete Student</h1><br>
+              <p class="w3-large">Sau khi click vào dấu X bên phải của từng item thì sẽ hiện ra 1 dialog hỏi lại bạn có chắc chắn muốn xóa không?, trong dialog có 2 button:  <span class="w3-tag w3-light-grey"></span> </p>
+              <p class="w3-large w3-text-grey w3-hide-medium">Button Yes: Click vào là dồng ý xóa và toast ra đã xóa thành công.</p>
+              <p class="w3-large w3-text-grey w3-hide-medium">Button No: Click vào để hủy không xóa.</p>
+              
+        
+            </div>
+          </div>
+
+          <hr>
+          
+          <div class="w3-content" style="max-width:1100px">
+
+            <!-- About Section -->
+            <div class="w3-row w3-padding-64" id="about">
+              <div class="w3-col m6 w3-padding-large w3-hide-small">
+              <img src="/images/suaSV.png" class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="150" height="300">
+              <img src="/images/suaSV11.png" class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="150" height="300">
+            <img src="/images/suathanhcong.png" class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="170" height="300">
+
+              </div>
+          
+              <div class="w3-col m6 w3-padding-large">
+                <h1 class="w3-center">Details Student</h1><br>
+                <p class="w3-large">Sau khi click vào sinh viên muốn sửa thì sẽ chuyển sang details activity, trong activity details student chỉ sửa được lớp, nơi sinh và số điện thoại. Cũng có 2 button để mình lựa chọn:  <span class="w3-tag w3-light-grey"></span> </p>
+                <p class="w3-large w3-text-grey w3-hide-medium">Button Edit: Click vào là đồng ý sửa sẽ hiện ra 1 dialog hỏi mình có chắn chắn không, nếu có chọn Yes sẽ toast ra đã sửa thành công còn không muốn sửa thì chọn No. </p>
+                <p class="w3-large w3-text-grey w3-hide-medium">Button Cancel: Click vào để hủy không sửa.</p>
+                
+          
+              </div>
+            </div>
+        
+        
+      <!-- End page content -->
+      </div>
+
+      <!-- Footer -->
+      <footer class="w3-center w3-light-grey w3-padding-32">
+        <p>Powered By <a href="" title="W3.CSS" target="_blank" class="w3-hover-text-green">Nguyễn Võ Ngọc Toàn</a></p>
+      </footer>
+
+      </body>
+</html>
